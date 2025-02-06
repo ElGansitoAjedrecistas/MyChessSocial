@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú de Navegación con Iconos</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  </head>
+ <body>
+  <!-- Menú de navegación -->
+  <nav class="navbar">
+    <div class="navbar-logo">MiRedSocial</div>
+    <ul class="navbar-menu">
+      <li>
+        <a href="#" onclick="irAInicio()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
+            <path d="M12 3l9.5 9h-3v9h-6v-6h-3v6h-6v-9h-3l9.5-9z"/>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="#" onclick="mostrarAmigos()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="#" onclick="abrirMensajes()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
+            <path d="M20 2h-16c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h4l4 4 4-4h4c1.1 0 2-.9 2-2v-14c0-1.1-.9-2-2-2zm-8 10h-8v-2h8v2zm4-4h-12v-2h12v2zm0 8h-12v-2h12v2z"/>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="#" onclick="mostrarNotificaciones()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
+            <path d="M12 24c1.104 0 2-.896 2-2h-4c0 1.104.896 2 2 2zm6-6v-5c0-2.761-1.79-5.062-4.375-5.783-.554-.154-.625-.303-.625-.717v-.5c0-.828-.672-1.5-1.5-1.5s-1.5.672-1.5 1.5v.5c0 .414-.071.563-.625.717-2.585.721-4.375 3.022-4.375 5.783v5l-2 2h16l-2-2z"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Contenedor principal -->
+  <div id="contenido" class="main-content">
+    <h1>Bienvenido a MiRedSocial</h1>
+    <p>Haz clic en las opciones del menú para interactuar.</p>
+  </div>
+</body>
+</html>
+ 
